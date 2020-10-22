@@ -26,9 +26,7 @@
 >    gulp.watch(‘./PATH/*scss’, [‘sass’]);      <br/>
 > })                                            <br/>
 
-Note que na linha 4 e 12 é informado o caminho onde os arquivos SCSS estão e na linha 7 o nome da pasta onde ficarão os arquivos CSS. Tal pasta ficará no mesmo diretório que os arquivos SCSS. Adapte os caminhos para a arquitetura do seu projeto. No exemplo acima, a arquitetura se configura da seguinte forma:
-
-architecture
+Note que na linha 4 e 12 é informado o caminho onde os arquivos SCSS estão e na linha 7 o nome da pasta onde ficarão os arquivos CSS. Tal pasta ficará no mesmo diretório que os arquivos SCSS. Adapte os caminhos para a arquitetura do seu projeto.
 
 **5) Agora precisamos configurar uma Gulp Task. No VSCode navegue Tasks > Configure Tasks e selecione Create tasks.json file from templates > Others. Será gerado um arquivo tasks.json na pasta .vscode. Substitua o código do arquivo pelo seguinte código:**
 
