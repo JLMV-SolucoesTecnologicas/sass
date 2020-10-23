@@ -1,0 +1,26 @@
+$preto: #000;
+$branco: #FFF;
+$vermelho: #F00;
+$verde: #0F0;
+$azul: #00F;
+$ciano: #00f7f7;
+$bege: #ead3bc;
+
+@mixin border-radius($px){
+    -webkit-border-radius: $px;
+    -moz-border-radius: $px;
+    -ms-border-radius: $px;
+    border-radius: $px;
+}
+
+@mixin text-align($string){
+    text-align: "-webkit-"#{$string};
+    text-align: $string;
+}
+
+@mixin transform-origin-x($string){
+    -webkit-transform-origin-x: $string;
+    transform-origin: $string;
+}
+
+/* ============================== */
